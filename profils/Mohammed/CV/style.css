@@ -1,0 +1,52 @@
+body{
+    margin: 20px;
+    border: black 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+header{
+    border: black 2px solid;
+    height: auto;
+    width: auto;
+    padding: 10px;
+
+
+}
+address{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+.titre{
+    border: solid 2px gray;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+h1{
+    color: darkviolet;
+}
+.savoirs{
+    color: darkviolet;
+    text-align: center;
+    border: deepskyblue 2px solid;
+    margin-top: 5px;
+    }
+.competence{
+    color: darkviolet;
+    text-align: center;
+    border: deepskyblue 2px solid;
+    margin-top: 5px;
+}
