@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  color: rgb(25, 182, 174);
+}
+h1 {
+  font-size: 18;
+}
+h3{
+  text-transform: uppercase;
+  text-align: center;
+}
+ul{
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+/* Partie principale */
+.parent {
+  flex-wrap: wrap;
+  display: flex;
+
+}
+/* Partie de gauche */
+.left_side {
+  margin-left: 5%;
+  width: 30%;
+  /* border: solid red 2px; */
+  float: right;
+}
+.photo{
+  margin-bottom: 200px;
+  text-align: left;
+  width: 100%;
+}
+.personnel{
+  text-align: center;
+}
+
+/* Partie de droite */
+.right_side {
+  margin-right: 5%;
+  margin-left: 3%;
+  width: 50%;
+  text-align: center;
+}
+
+.stage b{
+  margin-left: 20px;
+}
