@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/montre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* main */
+main{
+    margin-top: 5em;
+}
+
+#floatingTextarea{
+    height: 300px;
+}
+
+#floatingTextarea, #usermail{
+    opacity: 0.8;
+}
+
+
+/* media queries */
+@media (max-width: 767px){
+    #floatingTextarea{
+        height: 200px;
+    }
+}

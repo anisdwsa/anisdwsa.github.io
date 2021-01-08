@@ -1,0 +1,204 @@
+body{
+    background-image: url(../img/Arrière-plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+    header{
+        margin: 1em;
+    }
+
+    #logo{
+        height: 80px;
+        width: auto;
+        opacity: 0.7;
+        transition: 1s;
+    }
+
+    header input[type="text"]{
+        background-color: #FFF;
+        border: none;
+    }
+
+    #searchbar{
+        display: inline-flex;
+        margin: 1.5rem 1rem 1.5rem 0;
+        padding: 0.5rem 1rem;
+        border: 2px solid #ACADB1;
+        border-radius: 30px;
+        opacity: 0.8;
+        font-size: 1.2em;
+        background-color: #FFF;
+    }
+
+    #loupe{
+        height: 1.5em;
+        width: auto;
+        padding-right: 5px;
+        color: rgb(160, 160, 160);
+        opacity: 1;
+    }
+
+
+/* main */
+    main{
+        margin-top: 13em;
+    }
+
+    main h1{
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    main h3{
+        font-size: 2.5rem;
+        color: #CBCBCB;
+        font-weight: 400;
+    }
+
+    #boutons{
+        margin-top: 4em;
+    }
+
+    #btn-formation{
+        border: 1px solid #4784FF;
+        border-radius: 30px;
+        background-color: #4784FF;
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-size: 1.5em;
+        width: 8em;
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+    #btn-equipe{
+        border: 1px solid #35E5A3;
+        border-radius: 30px;
+        background-color: #35E5A3;
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-size: 1.5em;
+        width: 8em;
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+
+/* footer */
+    footer p{
+        font-size: 0.8em;
+    }
+
+    footer img{
+        height: 50px;
+        width: auto;
+    }
+
+    #vcss{
+        height: 31px;
+        width: auto;
+    }
+
+
+/* animations */
+    #logo:hover{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+
+    #loupe:focus{
+        outline: none;
+    }
+
+    #searchbar input[type="text"]:focus{
+        outline: none;
+    }
+
+    #searchbar:hover{
+        opacity: 0.9;
+    }
+
+    #btn-formation:hover{
+        background-color: #FFF;
+        border: #FFF 1px solid;
+        color: #4784FF;
+    }
+
+    #btn-equipe:hover{
+        background-color: #FFF;
+        border: #FFF 1px solid;
+        color: #35E5A3;
+    }
+
+
+/* responsive */
+
+    @media (max-width: 992px) {
+        main{
+            margin-top: 5rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        main h1{
+            font-size: 3em;
+        }
+
+        main h3{
+            font-size: 2em;
+        }
+    }
+
+    @media (max-width: 576px) {
+        header input[type="text"]{
+            width: 6em;
+        }
+
+        #boutons{
+            margin-top: 2em;
+        }
+
+        main h1{
+            font-size: 3em;
+        }
+
+        main h3{
+            font-size: 2em;
+        }
+
+        #btn-formation{
+            font-size: 1.2em;
+            width: 8em;
+        }
+    
+        #btn-equipe{
+            font-size: 1.2em;
+            width: 8em;
+        }
+    }
+
+    @media (max-width: 375px){
+        main h1{
+            font-size: 2.6em;
+        }
+
+        main h3{
+            font-size: 1.6em;
+        }
+
+        #btn-formation{
+            font-size: 1em;
+            width: 8em;
+        }
+    
+        #btn-equipe{
+            font-size: 1em;
+            width: 8em;
+        }
+    }
