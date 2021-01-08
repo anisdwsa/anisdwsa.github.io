@@ -1,0 +1,117 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav */
+#logo{
+    height: 70px;
+    width: auto;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.navJS{
+    background: transparent !important;
+    transition: 0.3s ease-in-out;
+
+}
+
+.navJS.scrolled{
+    background: #212529 !important;
+    transition: 0.3s ease-in-out;
+}
+
+/* Header */
+.bg{
+    background-image: url(../img/Arrière-plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+#titre{
+    padding-top: 1.7em;
+}
+
+/* Main */
+.carousel, .carousel-item{
+    height: 400px;
+}
+
+.carousel-img{
+    position: relative;
+    bottom: 13em;
+}
+
+.articleimg{
+    display: block;
+    max-width: 350px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+article a>p:hover, article h4:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+footer p{
+    font-size: 0.8em;
+}
+
+footer img{
+    height: 40px;
+    width: auto;
+}
+
+#vcss{
+    height: 31px;
+    width: auto;
+}
+
+/* Articles */
+#img1{
+    width: 1100px;
+    height: auto;
+}
+
+#img2{
+    height: 300px;
+    width: auto;
+}
+
+/* Animations */
+#logo:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/* Media queries */
+@media (max-width: 1200px){
+    .carousel{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .bg{
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #titre{
+        padding-top: 2.5em;
+    }
+
+    .navJS{
+        background-color: #212529bb !important;
+    }
+}
+
+@media (max-width: 375px) {
+    #titre{
+        padding-top: 3em;
+    }
+}
