@@ -115,3 +115,15 @@ footer img{
         padding-top: 3em;
     }
 }
+
+/* profil.html Ion Profil */
+
+.imgCss {
+    height: 183px;
+    width: 183px;
+}
+
+.cardShadow:hover {
+    box-shadow: 0 5px 15px rgba(47, 48, 49, 0.8);
+    font-weight: bold;
+  }
