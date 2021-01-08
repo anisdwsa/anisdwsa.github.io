@@ -1,0 +1,42 @@
+/* CV STYLES */
+
+.bgColor {
+  background-color: rgb(224, 218, 210);
+}
+
+.titleColor {
+  color: rgb(224, 218, 210);
+}
+
+.imgBorder {
+  border-radius: 50%;
+  border: white 2px solid;
+}
+
+.borderBottom {
+  border-bottom: rgb(224, 218, 210) 2px solid;
+}
+
+.btnHome {
+  position: fixed;
+  top: 85%;
+  left: 75%;
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  transition-duration: 0.4s;
+}
+
+.btnHome:focus {
+  outline: none !important;
+}
+
+.btnHome:hover {
+  opacity: 0.9;
+}
+
+.carousel-inner {
+  height: 495px;
+}

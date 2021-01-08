@@ -1,0 +1,12 @@
+/* profil.html Ion Profil */
+
+.cardShadow:hover {
+  box-shadow: 0 5px 15px rgba(47, 48, 49, 0.8);
+  font-weight: bold;
+}
+
+/* competences.html */
+
+.carousel-inner {
+  height: 495px;
+}
